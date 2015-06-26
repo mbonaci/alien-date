@@ -1,11 +1,8 @@
 {
-  "name": "date-alien",
-  "version": "0.2.0",
+  "name": "alien-date",
+  "version": "0.2.1",
   "description": "dates for aliens",
   "main": "index.js",
-  "dependencies": {
-    "debug": "~0.7.2"
-  },
   "devDependencies": {
     "better-assert": "~1.0.0",
     "mocha": "~1.9.0"
@@ -22,12 +19,9 @@
     "parsing",
     "datetime parser"
   ],
-  "repository": "https://github.com/mbonaci/date-alien",
+  "repository": "https://github.com/mbonaci/alien-date",
   "author": "Marko Bonaci",
   "spm": {
     "main": "index.js",
-    "dependencies": {
-      "debug": "0.8.1"
-    }
   }
 }
