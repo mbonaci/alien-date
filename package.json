@@ -1,7 +1,7 @@
 {
-  "name": "date.js",
+  "name": "date-alien",
   "version": "0.2.0",
-  "description": "dates for humans",
+  "description": "dates for aliens",
   "main": "index.js",
   "dependencies": {
     "debug": "~0.7.2"
@@ -14,12 +14,16 @@
     "test": "make test"
   },
   "keywords": [
+    "date",
     "dates",
-    "humans",
-    "parsing"
+    "time",
+    "alien",
+    "human",
+    "parsing",
+    "datetime parser"
   ],
-  "repository": "https://github.com/MatthewMueller/date",
-  "author": "Matthew Mueller",
+  "repository": "https://github.com/mbonaci/date-alien",
+  "author": "Marko Bonaci",
   "spm": {
     "main": "index.js",
     "dependencies": {
