@@ -1,25 +1,18 @@
-# date [![Build Status](https://secure.travis-ci.org/MatthewMueller/date.png?branch=master)](http://travis-ci.org/MatthewMueller/date) [![Libscore](http://img.shields.io/badge/libscore-35-brightgreen.svg?style=flat-square)](http://libscore.com/#date) [![Gittask](https://gittask.com/matthewmueller/date.svg)](https://gittask.com/matthewmueller/date)
+# alien-date
 
-Date is an english language date parser for node.js and the browser. For examples and demos, see: [http://matthewmueller.github.io/date/](http://matthewmueller.github.io/date/)
+Forked Matthew Mueller's [date.js](http://matthewmueller.github.io/date/) since it took him more than an hour :) to accept my PR that fixed a bug, which rendered the package completely unusable for me.  
 
-## Installation
+It's basically an English language date parser for node.js.
+For the browser version, you'd have to look at the Matthew's repo.
+
+For examples and demos, again, Matthew's repo (linked above).
+
+## Installation of the fixed version
 
 ### On the server (node.js):
 
-    npm install date.js
+    npm install alien-date
 
-### In the browser:
-
-#### Using component:
-
-    component install matthewmueller/date
-
-#### Standalone:
-
-* development: [date.js](https://raw.github.com/MatthewMueller/date/master/dist/date.js)
-* minified: [date.min.js](https://raw.github.com/MatthewMueller/date/master/dist/date.min.js)
-
-> Standalone is also AMD-compatible
 
 ## Examples
 
@@ -61,8 +54,6 @@ Create a `Date` from a `str`. You may also supply an optional `offset` to the st
 
 ## Tests
 
-To run the tests, you'll need node.js:
-
     npm install
     make test
 
@@ -80,6 +71,7 @@ authors  :
    9  Matthew Mueller         18.0%
    3  Eero Norri              6.0%
    2  thomas                  4.0%
+   2  Marko Bonaci            4.0%
    1  Jimmy Gaussen           2.0%
 ```
 
