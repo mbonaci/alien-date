@@ -3,13 +3,9 @@
 Forked Matthew Mueller's [date.js](http://matthewmueller.github.io/date/) since it took him more than an hour :) to accept my PR that fixed a bug, which rendered the package completely unusable for me.  
 
 It's basically an English language date parser for node.js.
-For the browser version, you'd have to look at the Matthew's repo.
+For the browser version, examples and demos have a look at the Matthew's repo.
 
-For examples and demos, again, Matthew's repo (linked above).
-
-## Installation of the fixed version
-
-### On the server (node.js):
+## Installation for the server (node):
 
     npm install alien-date
 
@@ -39,7 +35,6 @@ date('this morning at 9')
 date('2 years from yesterday at 5pm')
 date('last month')
 date('tomorrow afternoon at 4:30pm 1 month from now')
-
 date('at 12:30')
 date('at 12.30')
 date('tuesday at 9')
