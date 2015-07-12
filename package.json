@@ -1,6 +1,6 @@
 {
   "name": "alien-date",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "dates for aliens",
   "main": "index.js",
   "devDependencies": {
@@ -17,7 +17,8 @@
     "alien",
     "human",
     "parsing",
-    "datetime parser"
+    "datetime parser",
+    "timestamp"
   ],
   "repository": "https://github.com/mbonaci/alien-date",
   "author": "Marko Bonaci",
