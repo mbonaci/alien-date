@@ -1,8 +1,9 @@
 # alien-date
 
-Forked Matthew Mueller's [date.js](http://matthewmueller.github.io/date/) since it took him more than an hour :) to accept my PR that fixed a bug, which rendered the package completely unusable for me.  
+Forked Matthew Mueller's [date.js](http://matthewmueller.github.io/date/) since it took him some time to accept my PR that fixed a bug, which rendered the package completely unusable for me.  
 
-It's basically an English language date parser for node.js.
+Fork yeah!
+It's basically an English language date parser for node.js. It returns native JS Date object.
 For the browser version, examples and demos have a look at the Matthew's repo.
 
 ## Installation for the server (node):
