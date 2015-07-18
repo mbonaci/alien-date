@@ -8,9 +8,6 @@
     "parsing",
     "human"
   ],
-  "dependencies": {
-    "visionmedia/debug": "*"
-  },
   "main": "index.js",
   "scripts": [
     "index.js",
